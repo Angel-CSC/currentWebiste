@@ -12,12 +12,6 @@ function typeWriter(){
     }
 }
 
-
-
-function shakeContetent(content){
-    var currentThing = document.querySelector(content);
-}
-
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
 const reachOut = document.querySelector(".button");
@@ -25,7 +19,6 @@ const reachOut = document.querySelector(".button");
 var i = 0;
 var txt = "Welcome to my portfolio! My name is Angel Gomez and I am persuing a career in Software Engineering. I am a Freshman at the University of Texas at Dallas; but I am a junior credit-wise. In this portfolio, you will find examples of my work and achievements, as well as information about my background and education. I am passionate about [passion/goal] and am always seeking new opportunities to learn and grow. Thank you for taking the time to review my portfolio. I hope you enjoy learning more about me and my work.";
 var speed = 20;
-var proceedWithAnimation = true;
 
 typeWriter(); //this will make the animation where the text is applied on the screen!!!!!
 
